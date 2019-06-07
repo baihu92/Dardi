@@ -1,0 +1,12 @@
+name: nozzle
+description: Simple DI library for flutter and pure dart projects.
+version: 0.1.0
+author: Kirill Molokov <baihu92@gmail.com>
+homepage: https://github.com/baihu92
+repository: https://github.com/baihu92/Either
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+dev_dependencies:
