@@ -34,7 +34,7 @@ Add on pubspec.yml:
 
 ```
   dependencies:
-    dardi: ^0.1.0
+    dardi: ^0.1.1
 ```
 
 
