@@ -1,4 +1,4 @@
-import 'di.dart';
+import 'dardi.dart';
 
 /// Политика создания и хранения зависимости.
 class BuildPolicy {

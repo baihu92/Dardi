@@ -1,4 +1,4 @@
-import 'di.dart';
+import 'dardi.dart';
 import 'build_policy.dart';
 
 class InitialContext {

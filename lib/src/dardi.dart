@@ -4,7 +4,7 @@ import 'initial_context.dart';
 typedef T DependencyBuilder<T>();
 
 /// Интерфейс DI.
-class DI {
+class Dardi {
   static InitialContext _context;
 
   static InitialContext get _getContext {
@@ -14,7 +14,7 @@ class DI {
       return _context = InitialContext();
   }
 
-  DI._internal();
+  Dardi._internal();
 
   /// Добавляет singleton зависимость.
   static void addSingleton<T>(DependencyBuilder<T> dependency) {
@@ -30,8 +30,9 @@ class DI {
   static T getDependency<T>() {
     return _getContext.getDependency();
   }
-  
-  static void removeDependency<T>(T dependency){
+
+  /// Удаляет singleton
+  static void removeSingleton<T>(T dependency) {
     _getContext.removeSingleton(dependency);
   }
 }
