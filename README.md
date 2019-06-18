@@ -32,8 +32,10 @@ class UserTerminalView {
 
 Add on pubspec.yml:
 
-```dependencies:
-  dardi: ^0.1.0```
+```
+  dependencies:
+    dardi: ^0.1.0
+```
 
 
 ## Getting Started
